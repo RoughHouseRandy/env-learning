@@ -12,12 +12,12 @@ int main() {
 
     bn::backdrop::set_color(bn::color(25, 20, 29));
 
-    auto dot = bn::sprite_items::bun.create_sprite(0, 0);
+    auto dot = bn::sprite_items::bun.create_sprite(-100, 0);
 
-    bn::fixed speed = 1.5;
+    bn::fixed speed = 1.0;
 
     bn::fixed dy = 0;
-    bn::fixed gravity = .03;
+    bn::fixed gravity = .01;
 
     bn::fixed jump_strength = 1.3;
 
